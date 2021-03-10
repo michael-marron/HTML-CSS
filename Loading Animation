@@ -1,0 +1,126 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+  </head> 
+  <body> 
+    <div id="main-body"> 
+      <div id="L">L</div> 
+      <div id="O">O</div>
+      <div id="A">A</div> 
+      <div id="D">D</div>
+      <div id="I">I</div> 
+      <div id="N">N</div>
+      <div id="G">G</div> 
+    </div>
+      
+      </body> 
+      </html> 
+      
+body {
+  background-color: black;
+  font-family: monospace;
+  color: green;
+}
+#main-body {
+  font-size: 50px;
+  display: flex; 
+  justify-content: space-evenly;
+  position: relative; 
+  top: 100px;
+  
+  animation-name: loading; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes loading {
+  50% {
+    transform: rotate(deg)
+  }
+}
+
+#L {
+  animation-name: L; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes L {
+  50% {
+    transform: rotate(360deg)
+  }
+}
+
+#O {
+  animation-name: O; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite; 
+  
+}
+
+@keyframes O {
+  50% {
+    transform: rotate(360deg)
+  }
+}
+
+
+#A {
+  animation-name: A; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes A {
+  50% {
+    transform: rotate(360deg)
+  }
+}
+
+#D {
+  animation-name: D; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes D {
+  50% {
+    transform: rotate(360deg)
+  }
+}
+
+#I {
+  animation-name: I; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes I {
+  50% {
+    transform: rotate(360deg)
+  }
+}
+
+#N {
+  animation-name: N; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes N {
+  50% {
+    transform: rotate(360deg)
+  }
+}
+
+#G {
+  animation-name: G; 
+  animation-duration: 3s; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes G {
+  50% {
+    transform: rotate(360deg)
+  }
+}      
