@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html> 
+  <header id="header"> 
+    <script src="https://kit.fontawesome.com/de27bd6bac.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&family=Roboto&display=swap" rel="stylesheet">
+    
+    <nav id="nav-bar">
+      <div class="nav-box boxa"><img id="header-img" src="https://image.freepik.com/free-vector/flat-black-white-guitar-illustration_72147494527.jpg">
+        <!--
+        <i id="header-img" class="fas fa-guitar fa-2x"></i>
+        -->
+        Original Guitars</div> 
+      <div class="nav-box boxb">
+        <a class="nav-link" href="#features">Features</a></div> 
+      <div class="nav-box boxc">
+        <a class="nav-link" href="#how-it-works">
+           How it Works</a></div> 
+      <div class="nav-box boxd"><a class="nav-link" href="#prices">Pricing</a></div> 
+      
+    </nav> 
+  </header> 
+  
+  <body> 
+    <div class="box-container">
+    <div class="box box1"></div> 
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <div id="features" class="box box2">
+        <h2>Handcrafted home-made masterpieces</h2>
+        <input id="email" type="email" name="email" placeholder="Enter your email"> 
+        <input id="submit" type="submit" placeholder="GET STARTED">
+      </div> 
+      </form>
+      <div class="box box3"></div> 
+      <div class="box box4">
+      </div>
+      
+      <div class="box box5">
+        <div class="features firstfeature">
+         
+          <h2><a name="features"><i class="fas fa-tree"></i> Premium Materials</a></h2>
+        <p>Our guitars are made with the most vibrant and organic wood. </p>
+        </div>
+        <div class="features secondfeature">
+        <h2><i class="fas fa-shipping-fast"></i> Fast Shipping</h2> 
+        <p>Every order is personally delivered. </p>
+        </div>
+        <div class="features thirdfeature">
+        <h2><i class="fas fa-award"></i> Quality Assurance</h2> 
+        <p>The guitar that stands up the best is shipped to you.</p>
+        </div>
+        
+        
+      </div> 
+      <div class="box box6"></div> 
+      <div class="box box7"></div>
+      <div id="how-it-works" class="box box8">
+        <h2><!--<a name="how-it-works"></a>-->See our quality craftsmanship for yourself.<h2> 
+          <!-- how the video needed to be formatted for the tests
+          <video id="video" controls>
+            <source src="https://www.youtube.com/embed/dQw4w9WgXcQ" type="video/mp4" mute>
+          </video>
+-->
+          
+        <div class="youtube" id="dQw4w9WgXcQ"  src="https://www.taylorguitars.com/sites/default/files/styles/hero_rotator/public/TG-GrandPacific-GPGroupShot-1.jpg?itok=c4voc54g" style="width:500px; height:294px;"></div>
+<script type="text/javascript" src="https://codegena.com/assets/js/youtube-embed.js"></script>
+          
+        <!--
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+      
+      </div>
+      <div class="box box9"></div>
+      <div class="box box10"></div>
+      <div class="box box11">
+      
+        <div id="prices" class="prices bg"><a name="prices">
+          </a>
+          <h1 class="type">Basic Guitar</h1>
+          <hr>
+          <h2 class="price">$600</h2> 
+          <ul> 
+            <li>1 string guaranteed</li> 
+            <li>Slightly used </li> 
+            <li>Pine</li> 
+          </ul> 
+          
+        </div> 
+        <div class="prices dg">
+          <h1 class="type">Decent Guitar</h1>
+          <hr>
+          <h2 class="price">$900</h2> 
+          <ul>
+            <li></li> 
+            <li></li> 
+            <li></li> 
+       
+        </div>
+        <div class="prices gg">
+          <h1 class="type">Genuine Guitar</h1>
+          <hr>
+          <h2 class="price">$1200</h2>
+          <ul> 
+            <li></li> 
+            <li></li> 
+            <li></li>
+            </div>
+         </div>
+      <div class="box box12"></div> 
+
+    </div>
+  </body> 
+          <footer> </footer> 
+          <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
+</html> 
