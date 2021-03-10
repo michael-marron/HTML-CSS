@@ -1,0 +1,228 @@
+<!DOCTYPE html> 
+<head> 
+</head> 
+<body> 
+  <div id="background">
+    <div id="moon"></div> 
+    <div id="star1"></div>
+    <div id="star2"></div>
+    <div id="star3"></div>
+    <div id="star4"></div> 
+    <div id="star5"></div>
+  </div>
+</body> 
+
+#background {
+  width: 600px;
+  height: 600px;
+ margin: auto;
+  background: linear-gradient(black, #3649ED, #36D7ED, #CCFFFF, #FFCCCC);
+    border-radius: 30px;
+}
+
+#moon {
+
+  height: 100px;
+  width: 100px; 
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 25px 10px 0px 10px white;
+  position: relative; 
+  top: 30px;
+  left: 10px;
+  animation-name: crescentmoon;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+  animation-timing-function: ease;
+  
+}
+
+@keyframes crescentmoon {
+  100% {
+    top: 60%;
+    opacity: 0.1;
+  }
+}
+
+#star1 {
+  height: 10px;
+  width: 10px; 
+  position: relative;
+  top: 40px;
+  left: 300px; 
+  background-color: white; 
+  border-radius: 50%; 
+  animation-name: star1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease; 
+}
+
+@keyframes star1 {
+  10% {
+    transform: scale(1.5);
+  }
+  20% {
+    transform: scale(1.0);
+  }
+  30% {
+    transform: scale(1.5);
+  }
+  40% {
+    transform: scale(1.0);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1.0);
+    opacity: 0.1; 
+    top: 60%;
+  }
+}
+
+#star2 {
+  width: 10px;
+  height: 10px; 
+  position: relative; 
+  top: 150px;
+  left: 350px; 
+  background-color: white; 
+  border-radius: 50%;
+  animation-name: star2; 
+  animation-duration: 4s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease; 
+}
+
+@keyframes star2 {
+  10% {
+    transform: scale(1.5);
+  }
+  20% {
+    transform: scale(1.0);
+  }
+  30% {
+    transform: scale(1.5); 
+  }
+  40% {
+    transform: scale(1.0); 
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1.0);
+    opacity: 0.1; 
+    top: 60%;
+  }
+}
+
+#star3 {
+  width: 10px;
+  height: 10px; 
+  position: relative; 
+  top: 60px;
+  left: 175px; 
+  background-color: white; 
+  border-radius: 50%;
+  animation-name: star3; 
+  animation-duration: 4s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease; 
+  
+}
+@keyframes star3 {
+  10% {
+    transform: scale(1.5);
+  }
+  20% {
+    transform: scale(1.0);
+  }
+  30% {
+    transform: scale(1.5); 
+  }
+  40% {
+    transform: scale(1.0); 
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1.0);
+    opacity: 0.1; 
+    top: 60%;
+  }
+}
+#star4 {
+  width: 10px;
+  height: 10px; 
+  position: relative; 
+  top: -80px;
+  left: 450px; 
+  background-color: white; 
+  border-radius: 50%;
+  animation-name: star4; 
+  animation-duration: 4s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease; 
+  
+}
+@keyframes star4 {
+  10% {
+    transform: scale(1.5);
+  }
+  20% {
+    transform: scale(1.0);
+  }
+  30% {
+    transform: scale(1.5); 
+  }
+  40% {
+    transform: scale(1.0); 
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1.0);
+    opacity: 0.1; 
+    top: 60%;
+  }
+}
+#star5 {
+  width: 10px;
+  height: 10px; 
+  position: relative; 
+  top: 0px;
+  left: 550px; 
+  background-color: white; 
+  border-radius: 50%;
+  animation-name: star5; 
+  animation-duration: 4s; 
+  animation-iteration-count: infinite; 
+  animation-timing-function: ease; 
+  
+}
+@keyframes star5 {
+  10% {
+    transform: scale(1.5);
+  }
+  20% {
+    transform: scale(1.0);
+  }
+  30% {
+    transform: scale(1.5); 
+  }
+  40% {
+    transform: scale(1.0); 
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1.0);
+    opacity: 0.1; 
+    top: 60%;
+  }
+}
