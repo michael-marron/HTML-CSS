@@ -1,0 +1,130 @@
+@media (max-height: 100px) {
+  img {
+    max-width: 100%;
+      height: auto;
+  }
+}
+
+#nav-bar {
+  background-color: white;
+  height: 5rem; 
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.boxa {
+  flex-grow: 5;
+  font-size: 35px;
+  align-self: flex-end;
+  padding: 0.25rem;
+  font-family: lobster, sans-serif;
+}
+
+#header-img {
+  width: 4rem;
+  height: 4rem;
+  opacity: ;
+  margin-top: ;
+  position: relative;
+  top: 0.85rem;
+}
+
+.boxb {
+  flex-grow: 1;
+  font-size: 25px;
+  align-self: flex-end;
+  padding: 0.25rem;
+  font-family: lobster;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+
+.boxb:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.boxc {
+  flex-grow: 1;
+  font-size: 25px;
+  align-self: flex-end;
+  padding: 0.25rem;
+  font-family: Lobster;
+}
+
+.boxc:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  
+}
+ 
+.boxd {
+  flex-grow: 1;
+  font-size: 25px;
+  align-self: flex-end;
+  padding: 0.25rem;
+  font-family: Lobster;
+}
+
+.boxd:hover {
+  text-decoration: underline;
+  cursor: pointer; 
+}
+
+
+.box {
+  background-color: white;
+}
+.box-container {
+  display: grid; 
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-gap: 1em;
+  grid-auto-rows: auto;
+  justify-items: ;
+  margin-top: 6rem;
+  
+}
+.box11 {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.prices {
+  border: solid;
+}
+
+.price {
+  text-align: center;
+}
+
+.type {
+  text-align: center;
+}
+
+#email {
+  width: 20rem;
+}
+
+#features {
+  text-align: center;
+}
+
+.box8 {
+  text-align: center;
+}
+
+.youtube {
+  display: block;
+  margin: auto;
+}
