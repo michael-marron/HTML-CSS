@@ -1,0 +1,80 @@
+#main-background {
+  background-color: black;
+  width: 1200px;
+}
+#main-box {
+  background-color: #FBFD76;
+
+  
+  width: 500px;
+  margin: auto; 
+  font-size: 20px;
+  height: 1000px;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center; 
+  font-family: sans serif;
+}
+h2 {
+  text-align: center; 
+  font-family: san serif;
+}
+
+#name {
+  position: relative;
+  top: 20px;
+  right: 50px;
+  width: 200px;
+  padding-bottom: 20px;
+  
+  
+ }
+
+#email {
+  position: relative;
+  bottom: 100px;
+  width: 200px;
+  padding-bottom: 20px;
+  top: 20px;
+  right: 50px;
+  
+  
+}
+#email-label {
+  text-align: left;
+}
+
+#number {
+  position: relative; 
+  bottom: 20px;
+  width: 200px;
+  padding-bottom: 20px;
+  left: 10px;
+}
+
+#Definitely {
+  position: relative; 
+ 
+}
+#text-area {
+  width: 400px; 
+  
+  padding-bottom: 100px;
+  padding-top: 0px;
+  border-radius: 0px;
+  margin: 0px;
+  border: 0px;
+  position: relative; 
+  bottom: 20px;
+}
+
+input {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: silver;
+  position: relative; 
+  
+}
+
